@@ -26,7 +26,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ospreyrobotics/docker-ros2-iron
+          images: docker.io/ospreyrobotics/docker-ros2-iron
 
       - name: Build and push Docker images
         uses: docker/build-push-action@v5
